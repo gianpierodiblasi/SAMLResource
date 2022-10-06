@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="b103" majorVersion="9" minorVersion="0" modelPersistenceProviderPackage="AzuresqlPersistenceProviderPackage" revision="1" schemaVersion="1100" universal="">
+  <DataShapes>
+    <DataShape name="ds_SAMLAttributes">
+      <FieldDefinitions>
+        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="" name="userID" ordinal="0"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="firstName" ordinal="1"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="lastName" ordinal="2"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="email" ordinal="3"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="role" ordinal="4"/>
+      </FieldDefinitions>
+    </DataShape>
+  </DataShapes>
+</Entities>
